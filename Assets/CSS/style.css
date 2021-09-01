@@ -1,3 +1,52 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(99, 126, 123);
+}
+
+img {
+   float: left;
+   width: 25%;
+   height: auto;
+   border-radius: 20%;
+   padding: 20px;
+}
+
+p {
+    display: flex;
+    float: right;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    display: inline;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#about-me {
+    float: left;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+    border: 3px solid black;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bolder;
 }
