@@ -3,7 +3,6 @@ body {
 }
 
 img {
-   float: left;
    width: 25%;
    height: auto;
    border-radius: 20%;
@@ -11,10 +10,10 @@ img {
 }
 
 p {
-    display: block;
     float: right;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
 }
 
 li {
@@ -23,12 +22,27 @@ li {
 
 nav {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: flex-end;
+
+    list-style: none;
+    margin: 0;
 }
 
 .flex-container {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex-item {
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
 }
 
 #about-me {
@@ -69,4 +83,15 @@ h1 {
     }
 }
 
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+}
 
+.header li, {
+    padding: 10px;
+}
+
+.footer li {
+    padding: 20px;
+}
