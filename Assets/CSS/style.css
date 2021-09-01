@@ -11,7 +11,7 @@ img {
 }
 
 p {
-    display: flex;
+    display: block;
     float: right;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,6 +23,7 @@ li {
 
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
 
@@ -50,3 +51,22 @@ h1 {
     font-size: 50px;
     font-weight: bolder;
 }
+
+.contact-information {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 600px) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+
