@@ -34,20 +34,23 @@ li {
     display: inline;
 }
 
+.my-story {
+}
+
 img {
-    float: right;
+    float: left;
     width: 200px;
 }
 
 .flex-container { 
     display: flex; 
-    flex-flow: row wrap; 
-    justify-content: space-around; 
-    padding: 0; 
-    margin: 0; 
-    list-style: none; 
-    float: right; 
+    flex-wrap: wrap;
+    justify-content: center;
 } 
+
+.flex-container > * {
+    flex: 1 1 10em;
+}
 
 .flex-item-1 {
     width: 100%;
@@ -58,7 +61,7 @@ img {
 
 .flex-item {
     padding: 5px;
-    width: 50%;
+    width: 100%;
     height: auto;
     margin: 10px;
 }
