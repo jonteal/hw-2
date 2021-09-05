@@ -77,11 +77,13 @@ hr {
 .item-1 {
     order: 1;
     flex: 1 1 30%
+    border: 5px solid red;
 }
 
 .item-2 {
     order: 2;
     flex: 1 1 70%;
+    border: 5px solid red;
 }
 
 h2 {
@@ -151,15 +153,15 @@ p {
 }
 
 .main-work-item {
-    margin: 5px 5px 5px 5px;
     width: 100%;
     height: auto;
     flex: 1 1 100%;
+    border: 3px solid lightblue;
 }
 
 .work-item {
-    margin: 5px 5px 5px 5px;
     flex: 1 1 50%;
+    border: 3px solid lightblue;
 }
 
 .item:hover {
