@@ -117,6 +117,8 @@ p {
     margin: 5px 5px 5px 5px;
     width: 80%;
     height: 50%;
+    overflow: hidden;
+
 }
 
 .item {
@@ -143,11 +145,17 @@ p {
         font-size: 1.5rem;
         line-height: 1.5;
     }
+    .column {
+        width: 100%;
+      }
 }
 
 @media screen and (max-width: 600px) { 
     p {
         font-size: 1.25rem;
     }
+    .column {
+        width: 100%;
+      }
 }
 
