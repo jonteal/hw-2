@@ -26,7 +26,7 @@ h1 {
     padding: 10px;
 }
 
-.hero {
+/* .hero { */
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
@@ -94,10 +94,11 @@ p {
     font-size: 20px;
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
 }
 
 .profile-pic {
-    width: 25%;
+    width: 15%;
     height: auto;
     border-radius: 25%;
     float: center;
@@ -111,6 +112,7 @@ p {
     flex-direction: column;
     width: 80%;
     border: 5px solid black;
+    flex-wrap: wrap;
 }
 
 .main-item {
@@ -118,22 +120,44 @@ p {
     width: 80%;
     height: 50%;
     overflow: hidden;
-
+    flex: 1 1 200px;
 }
 
 .item {
     margin: 5px 5px 5px 5px;
+    flex: 1 1 200px;
+}
+
+
+.item:hover {
+    opacity: 0.5;
 }
 
 .item:hover { 
     opacity: 1.0;
 }
 
+/* .cropped { */
+    overflow: hidden;
+    padding: 5px;
+    width: 500px;
+    height: 250px;
+}
+
+/* .cropped img { */
+    margin: -125px 0px 0px 0px;
+}
 
 
 /* Footer */
 .contact-information { 
     text-align: center;
+    display: inline-flex;
+}
+
+.contact-information li {
+    text-decoration: underline;
+    margin: 5px;
 }
 
 .footer li { 
