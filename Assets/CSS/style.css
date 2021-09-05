@@ -39,8 +39,31 @@ h1 {
     background-position: center;
 }
 
-/* Navigation Links */
-.links a { 
+.header-container {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid red;
+}
+
+.header-item-1 {
+    order: 1;
+    flex: 1 1 33%;
+    border: 5px solid red;
+}
+
+.header-item-2 {
+    order: 2;
+    flex: 1 1 33%;
+    border: 5px solid red;
+}
+
+.header-item-3 {
+    order: 3;
+    flex: 1 1 33%;
+    border: 5px solid red;
+}
+
+.header-item-3 a { 
     padding: 20px;
     text-decoration: none;
     color: red;
@@ -76,7 +99,7 @@ hr {
 
 .item-1 {
     order: 1;
-    flex: 1 1 30%
+    flex: 1 1 30%;
     border: 5px solid red;
 }
 
@@ -98,17 +121,6 @@ h2 {
     justify-content: center;
     margin: 10px;
     color: #415a7b;
-}
-
-/* #align-right {   */
-    flex: 1 1 75%;
-    text-align: right;
-    align-items: center;
-}
-
-/* #align-left { */
-    flex: 1 1 25%;
-    float: left;
 }
 
 p {
@@ -142,7 +154,7 @@ p {
 }
 
 /* Project Container */
-.project-container {
+.projects-container {
     display: flex;
     flex-direction: row;
     width: 100%;
