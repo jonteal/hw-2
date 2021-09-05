@@ -19,6 +19,7 @@ h1 {
 
 .header {
     background-color: #30343e;
+    border: 5px solid red;
 }
 
 .header nav { 
@@ -70,6 +71,7 @@ hr {
 .about-me-container {
     display: flex;
     flex-direction: row;
+    border: 5px solid red;
 }
 
 .item-1 {
@@ -125,6 +127,7 @@ p {
 .work-container {
     display: flex;
     flex-direction: row;
+    border: 5px solid red;
 }
 
 .item-1 {
@@ -188,6 +191,7 @@ p {
 .footer-container {
     display: flex;
     flex-direction: row;
+    border: 5px solid red;
 }
 
 .item-1 {
