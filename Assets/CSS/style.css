@@ -45,14 +45,16 @@ h1 {
     flex-direction: row;
     border: 5px solid red;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .header-item-1 {
     order: 1;
     flex: 1 1 33%;
-    border: 5px solid red;
     position: absolute;
     background-color: lightblue;
+    margin: 10px;
+    border-radius: 5%;
 }
 
 .header-item-2 {
@@ -90,7 +92,7 @@ li {
 nav a:hover { 
     background-color:lightblue;
     color: #30343e;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 /* Horizontal Line Break */
@@ -132,7 +134,7 @@ h2 {
 }
 
 p {
-    font-size: 25px;
+    font-size: 15px;
     text-align: end;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: right;
@@ -173,14 +175,15 @@ p {
 }
 
 .main-work-item {
-    width: 100%;
+    width: 90%;
     height: auto;
-    flex: 1 1 100%;
+    flex: 1 1 90%;
     border: 3px solid lightblue;
 }
 
 .work-item {
-    flex: 1 1 50%;
+    flex: 1 1 45%;
+    width: 45%;
     border: 3px solid lightblue;
 }
 
