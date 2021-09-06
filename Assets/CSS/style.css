@@ -241,16 +241,17 @@ p {
     padding: 20px;
 }
 
-.footer-container a:hover { 
-    background-color:lightblue;
-    color: #30343e;
+.div ul:hover { 
+    background-color: #415a7b;
+    color: lightblue;
     border-radius: 5%;
 
-@media screen and (max-width: 760px) { 
+
+@media screen and (max-width: 760px) {
     p {
-        font-size: 1.5rem;
+        font-size: 1.5px;
         line-height: 1.5;
-    }  
+    }
 }
 
 @media screen and (max-width: 600px) { 
