@@ -130,7 +130,7 @@ h2 {
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: underline;
-    flex: 1 1 30%;
+    flex: 0 1 30%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -175,14 +175,14 @@ p {
 .main-work-item {
     width: 90%;
     height: auto;
-    flex: 1 1 90%;
+    flex: 0 1 90%;
     border: 3px solid lightblue;
     flex-grow: 1;
     border: 5px solid red;
 }
 
 .work-item {
-    flex: 1 1 45%;
+    flex: 0 1 45%;
     width: 45%;
     border: 3px solid lightblue;
     border: 5px solid red;
@@ -206,7 +206,6 @@ p {
 /* .cropped img { */
     margin: -125px 0px 0px 0px;
 }
-
 
 /* Footer */
 
@@ -241,11 +240,11 @@ p {
     padding: 20px;
 }
 
-.div ul:hover { 
+.div a:hover { 
     background-color: #415a7b;
     color: lightblue;
     border-radius: 5%;
-
+}
 
 @media screen and (max-width: 760px) {
     p {
