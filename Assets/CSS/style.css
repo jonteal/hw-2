@@ -18,6 +18,8 @@ h1 {
     color: #30343e;
 }
 
+
+/* Header */
 .header {
     background-color: #30343e;
     border: 5px solid red;
@@ -32,14 +34,7 @@ h1 {
     padding: 10px;
 }
 
-/* .hero {  */
-    height: 300px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-}
-
+/* Header Container and Items */
 .header-container {
     display: flex;
     flex-direction: row;
@@ -51,17 +46,26 @@ h1 {
 .header-item-1 {
     order: 1;
     flex: 1 1 33%;
-    position: absolute;
     background-color: lightblue;
     margin: 10px;
     border-radius: 5%;
+    border: 5px solid red;
 }
 
 .header-item-2 {
     order: 2;
-    flex: 1 1 33%;
+    flex: 0 0 33%;
     border: 5px solid red;
-    position: absolute;
+    object-position: 50% 50%;
+}
+
+.profile-pic {
+    border: 5px solid red;
+    flex: 0 0 100%;
+    width: 50%;
+    height: auto;
+    border-radius: 0 25% 0 25%;
+    float: center;
 }
 
 .header-item-3 {
@@ -76,6 +80,7 @@ h1 {
     color:lightblue;
 }
 
+/* Navigation Bar */
 nav {  
     display: flex;
     flex-flow: row wrap;
@@ -140,13 +145,6 @@ p {
     float: right;
 }
 
-.profile-pic {
-    width: 15%;
-    height: auto;
-    border-radius: 25%;
-    float: center;
-}
-
 /* Work Section Container */
 .work-container {
     display: flex;
@@ -179,19 +177,22 @@ p {
     height: auto;
     flex: 1 1 90%;
     border: 3px solid lightblue;
+    flex-grow: 1;
+    border: 5px solid red;
 }
 
 .work-item {
     flex: 1 1 45%;
     width: 45%;
     border: 3px solid lightblue;
+    border: 5px solid red;
 }
 
-.item:hover {
+.work-item:hover {
     opacity: 0.5;
 }
 
-.item:hover { 
+.work-item:hover { 
     opacity: 1.0;
 }
 
@@ -240,22 +241,21 @@ p {
     padding: 20px;
 }
 
+.footer-container a:hover { 
+    background-color:lightblue;
+    color: #30343e;
+    border-radius: 5%;
+
 @media screen and (max-width: 760px) { 
     p {
         font-size: 1.5rem;
         line-height: 1.5;
-    }
-    .column {
-        width: 100%;
-      }
+    }  
 }
 
 @media screen and (max-width: 600px) { 
     p {
         font-size: 1.25rem;
     }
-    .column {
-        width: 100%;
-      }
 }
 
