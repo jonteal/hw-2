@@ -22,7 +22,6 @@ h1 {
 /* Header */
 .header {
     background-color: #30343e;
-    border: 5px solid red;
 }
 
 .header nav { 
@@ -38,7 +37,6 @@ h1 {
 .header-container {
     display: flex;
     flex-direction: row;
-    border: 5px solid red;
     justify-content: space-between;
     padding: 5px;
 }
@@ -49,18 +47,15 @@ h1 {
     background-color: lightblue;
     margin: 5px 10px 170px 0;
     border-radius: 5%;
-    border: 5px solid red;
 }
 
 .header-item-2 {
     order: 2;
     flex: 0 0 30%;
-    border: 5px solid red;
     object-position: 50% 50%;
 }
 
 .profile-pic {
-    border: 5px solid red;
     flex: 0 0 100%;
     width: 50%;
     height: auto;
@@ -71,7 +66,6 @@ h1 {
 .header-item-3 {
     order: 3;
     flex: 0 1 40%;
-    border: 5px solid red;
 }
 
 .header-item-3 a { 
@@ -91,7 +85,6 @@ nav {
 
 li { 
     display: inline;
-    text-decoration: underline;
 }
 
 nav a:hover { 
@@ -109,19 +102,19 @@ hr {
 .about-me-container {
     display: flex;
     flex-direction: row;
-    border: 5px solid red;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .item-1 {
     order: 1;
     flex: 0 1 30%;
-    border: 5px solid red;
 }
 
 .item-2 {
     order: 2;
     flex: 0 1 70%;
-    border: 5px solid red;
+    padding-top: 1rem;
 }
 
 h2 {
@@ -149,7 +142,8 @@ p {
 .work-container {
     display: flex;
     flex-direction: row;
-    border: 5px solid red;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .item-1 {
@@ -166,7 +160,6 @@ p {
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 5px solid red;
     flex-wrap: wrap;
     justify-content: space-around;
     float: right;
@@ -175,17 +168,20 @@ p {
 .main-work-item {
     width: 100%;
     height: auto;
-    flex: 0 1 90%;
+    flex: 0 1 100%;
     border: 3px solid lightblue;
     flex-grow: 1;
-    border: 5px solid red;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
 }
 
 .work-item {
     flex: 0 1 45%;
-    width: 45%;
+    width: 50%;
     border: 3px solid lightblue;
-    border: 5px solid red;
 }
 
 .work-item:hover {
@@ -205,7 +201,8 @@ p {
 .footer-container {
     display: flex;
     flex-direction: row;
-    border: 5px solid red;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .item-1 {
@@ -241,30 +238,16 @@ p {
         line-height: 1.5;
     }
 
-    .header-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .about-me-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .work-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .projects-container {
-        display: flex;
-        flex-direction: column;
-    }
-
+    .header-container,
+    .about-me-container,
+    .work-container,
+    .projects-container,
     .footer-container {
         display: flex;
         flex-direction: column;
     }
+
+
 }
 
 @media screen and (max-width: 600px) { 
