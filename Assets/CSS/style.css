@@ -47,7 +47,7 @@ h1 {
     order: 1;
     flex: 0 1 30%;
     background-color: lightblue;
-    margin: 10px;
+    margin: 5px 10px 170px 0;
     border-radius: 5%;
     border: 5px solid red;
 }
@@ -64,7 +64,7 @@ h1 {
     flex: 0 0 100%;
     width: 50%;
     height: auto;
-    border-radius: 0 25% 0 25%;
+    border-radius: 0 50% 50% 50%;
     float: center;
 }
 
@@ -173,7 +173,7 @@ p {
 }
 
 .main-work-item {
-    width: 90%;
+    width: 100%;
     height: auto;
     flex: 0 1 90%;
     border: 3px solid lightblue;
@@ -250,6 +250,26 @@ p {
     p {
         font-size: 1.5px;
         line-height: 1.5;
+    }
+
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
     }
 }
 
