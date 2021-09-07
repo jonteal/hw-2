@@ -64,13 +64,13 @@ h1 {
     flex: 0 0 100%;
     width: 50%;
     height: auto;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 0 50% 0 50%;
     float: center;
 }
 
 .header-item-3 {
     order: 3;
-    flex: 1 1 40%;
+    flex: 0 1 40%;
     border: 5px solid red;
 }
 
@@ -196,17 +196,6 @@ p {
     opacity: 1.0;
 }
 
-/* .cropped { */
-    overflow: hidden;
-    padding: 5px;
-    width: 500px;
-    height: 250px;
-}
-
-/* .cropped img { */
-    margin: -125px 0px 0px 0px;
-}
-
 /* Footer */
 
 .footer {
@@ -250,6 +239,11 @@ p {
     p {
         font-size: 1.5px;
         line-height: 1.5;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
     }
 
     .about-me-container {
