@@ -166,7 +166,6 @@ p {
     width: 100%;
     height: auto;
     flex: 0 1 100%;
-    border: 3px solid lightblue;
     flex-grow: 1;
 }
 
@@ -178,7 +177,6 @@ p {
 .work-item {
     flex: 0 1 50%;
     width: 50%;
-    border: 3px solid lightblue;
 }
 
 /* Footer */
