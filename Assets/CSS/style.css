@@ -9,7 +9,6 @@ body {
 }
 
 /* Header */
-
 h1 { 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
@@ -17,9 +16,6 @@ h1 {
     padding: 30px;
     color: #30343e;
 }
-
-
-/* Header */
 
 nav { 
     padding-top: 15px;
@@ -253,11 +249,11 @@ p {
         width: 100%;
     }
 
-    nav li {
+    nav li,
+    .footer li {
         display: flex;
         flex-direction: column;
     }
-
 
 }
 
