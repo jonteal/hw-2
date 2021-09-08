@@ -7,10 +7,9 @@ my skillset and creative ideas, so as to bring my ideas to prospective companies
 ## Table of Contents (Optional)
 Gif/Screenshot has been inclu
 
-  Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+ 
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![alt text](Assets/Images/Jon Jackson Portfolio.gif)
     ```
 
 
