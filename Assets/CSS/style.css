@@ -127,7 +127,7 @@ h2 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 1.5rem;
     text-align: end;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: right;
@@ -179,16 +179,7 @@ p {
     border: 3px solid lightblue;
 }
 
-.work-item:hover {
-    opacity: 0.5;
-}
-
-.work-item:hover { 
-    opacity: 1.0;
-}
-
 /* Footer */
-
 .footer {
     float: bottom;
 }
@@ -209,7 +200,6 @@ p {
     order: 2;
     text-align: center;
     flex: 1 1 70%;
-    /* display: inline-flex; */
 }
 
 .item-2 li {
@@ -227,12 +217,16 @@ p {
     border-radius: 5%;
 }
 
-@media screen and (max-width: 760px) {
-    p {
-        font-size: 1.5px;
-        line-height: 1.5;
-    }
 
+@media screen and (max-width: 1180px) {
+    nav li,
+    .footer li {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 760px) {
     .header-container,
     .about-me-container,
     .work-container,
@@ -242,24 +236,11 @@ p {
         flex-direction: column;
     }
 
-    .main-work-item {
-        width: 100%;
-    }
+    .main-work-item,
     .work-item {
         width: 100%;
     }
-
-    nav li,
-    .footer li {
-        display: flex;
-        flex-direction: column;
-    }
-
 }
 
-@media screen and (max-width: 600px) { 
-    p {
-        font-size: 1.25rem;
-    }
-}
+
 
