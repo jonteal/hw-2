@@ -15,5 +15,4 @@ https://jonteal.github.io/portfolio/
   
 ### Github Repository
 https://github.com/jonteal/portfolio
-  
-
+ 
