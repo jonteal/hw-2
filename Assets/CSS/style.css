@@ -20,16 +20,13 @@ h1 {
 
 
 /* Header */
-.header {
-    background-color: #30343e;
-}
 
-.header nav { 
+nav { 
     padding-top: 15px;
     margin-right: 20px;
 }
 
-.header li { 
+nav li { 
     padding: 10px;
     font-size: 1.5rem;
 }
@@ -40,6 +37,7 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     padding: 5px;
+    background-color: #30343e;
 }
 
 .header-item-1 {
