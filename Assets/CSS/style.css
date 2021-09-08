@@ -31,6 +31,7 @@ h1 {
 
 .header li { 
     padding: 10px;
+    font-size: 1.5rem;
 }
 
 /* Header Container and Items */
@@ -57,7 +58,7 @@ h1 {
 
 .profile-pic {
     flex: 0 0 100%;
-    width: 50%;
+    width: 60%;
     height: auto;
     border-radius: 0 50% 0 50%;
     float: center;
@@ -179,7 +180,7 @@ p {
 }
 
 .work-item {
-    flex: 0 1 45%;
+    flex: 0 1 50%;
     width: 50%;
     border: 3px solid lightblue;
 }
@@ -243,6 +244,18 @@ p {
     .work-container,
     .projects-container,
     .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-work-item {
+        width: 100%;
+    }
+    .work-item {
+        width: 100%;
+    }
+
+    nav li {
         display: flex;
         flex-direction: column;
     }
