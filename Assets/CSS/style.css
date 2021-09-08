@@ -99,6 +99,8 @@ hr {
     flex-direction: row;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .item-1 {
