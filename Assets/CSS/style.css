@@ -167,6 +167,20 @@ p {
     height: auto;
     flex: 0 1 100%;
     flex-grow: 1;
+    position: relative;
+}
+
+span {
+    position: absolute;
+    padding-right: 46rem;
+    padding-top: 7rem;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+    color: lightblue;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: xx-large;
 }
 
 .project-image {
