@@ -104,12 +104,12 @@ hr {
     padding-right: 1rem;
 }
 
-.item-1 {
+.left-side {
     order: 1;
     flex: 0 1 30%;
 }
 
-.item-2 {
+.right-side {
     order: 2;
     flex: 0 1 70%;
     padding-top: 1rem;
@@ -144,41 +144,26 @@ p {
     padding-bottom: 3rem;
 }
 
-.item-1 {
-    order: 1;
-}
-
-.item-2 {
-    order: 2;
-}
-
 /* Project Container */
 .grid-container {
     display: grid;
-    grid-template-rows: auto;
-    grid-gap: 5px;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    text-align: center;
+    border: solid 2px red;
 }
 
-.work-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
+.grid-item {
+    width: 100%;
 }
 
-.work-item-1 {
-    display: flex;
-    justify-content: center;
-}
-
-#middle-left-1 {
-    position: absolute;
-    width: fit-content;
+.item-1 {
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 .img-fluid {
-    max-width: 800px;
+    width: 100%;
 }
 
 .photo {
@@ -187,11 +172,6 @@ p {
 
 .photo:hover {
     opacity: 1.0;
-}
-
-.work-item {
-    flex: 0 1 50%;
-    width: 50%;
 }
 
 /* Footer */
@@ -244,7 +224,7 @@ p {
     .header-container,
     .about-me-container,
     .work-container,
-    .projects-container,
+    .grid-container,
     .footer-container {
         display: flex;
         flex-direction: column;
