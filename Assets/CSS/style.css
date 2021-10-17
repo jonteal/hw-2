@@ -167,7 +167,7 @@ p {
     margin: auto;
 }
 
-work-item-1 {
+.work-item-1 {
     display: flex;
     justify-content: center;
 }
@@ -188,24 +188,6 @@ work-item-1 {
 .photo:hover {
     opacity: 1.0;
 }
-
-/* span { */
-    /* position: absolute; */
-    /* padding-right: 46rem; */
-    /* padding-top: 7rem; */
-    /* right: 10px; */
-    /* top: 10px; */
-    /* z-index: 1; */
-    /* color: lightblue; */
-    /* font-weight: bolder; */
-    /* font-style: italic; */
-    /* font-size: xx-large; */
-/* } 
-
-/* .project-image {
-    width: 100%;
-    height: auto;
-} */
 
 .work-item {
     flex: 0 1 50%;
